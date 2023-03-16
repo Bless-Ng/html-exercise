@@ -89,7 +89,7 @@ footer {
 
 }
 
-h1 {
+h1, h2 {
     display: flex;
     justify-content: center;
     color: rgba(0, 0, 0, 0.596);
@@ -107,12 +107,39 @@ main {
     padding-right: 40px;
 }
 
-h4 {
-    color: black;
+ h4 {
+    color: rgb(3, 3, 3);
     padding-bottom: 25px ;
+    text-align: center;
+    font-weight: 300;
 }
 
 .column-text {
     font-size: 18px;
     line-height: 25px;
+}
+
+.first-article {
+    display: flex;
+    /* justify-content: space-around; */
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.image-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0 50px ;
+}
+
+.image-text p {
+    font-size: 18px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.596);
+    /* text-align: justify; */
+}
+.first-article a {
+   color: rgba(0, 0, 0, 0.596); 
 }
