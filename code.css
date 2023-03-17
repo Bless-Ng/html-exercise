@@ -9,9 +9,9 @@ header {
     height: 90px;
     display: flex;
     justify-content: space-between ;
-   align-items: center;
-   padding-left: 40px;
-   padding-right: 40px;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
   }
   
 nav {
@@ -45,6 +45,7 @@ footer {
     justify-content: center;
     padding-left: 40px;
    padding-right: 40px;
+   margin-top: 50px;
 }
 
 .small-test, .p-test {
@@ -89,7 +90,7 @@ footer {
 
 }
 
-h1, h2 {
+.heading, h2 {
     display: flex;
     justify-content: center;
     color: rgba(0, 0, 0, 0.596);
@@ -102,16 +103,17 @@ h1, h2 {
     color: rgba(0, 0, 0, 0.596);
 }
 
-main {
+.first-container {
     padding-left: 40px;
     padding-right: 40px;
 }
 
- h4 {
-    color: rgb(3, 3, 3);
+.column h4, .first-article h4 {
+    color:black;
     padding-bottom: 25px ;
     text-align: center;
-    font-weight: 300;
+    font-weight: 400;
+    font-size: 19px;
 }
 
 .column-text {
@@ -124,6 +126,7 @@ main {
     /* justify-content: space-around; */
     margin-top: 40px;
     margin-bottom: 40px;
+    /* flex-wrap: wrap; */
 }
 
 .image-text {
@@ -138,8 +141,121 @@ main {
     font-size: 18px;
     line-height: 25px;
     color: rgba(0, 0, 0, 0.596);
+    width: 500px;
     /* text-align: justify; */
 }
-.first-article a {
+.first-article a, .list a {
    color: rgba(0, 0, 0, 0.596); 
 }
+
+ul {
+   width: 450px;
+   margin: 0 auto;
+   font-size: 18px;
+   line-height: 25px;
+   /* border: 1px solid red; */
+    /* text-align: justify;  */
+    /* list-style-position: inside; */
+}
+
+.list h4 {
+    padding-top: 30px;
+}
+
+.h4 {
+    color:black;
+    padding-bottom: 25px ;
+    text-align: center;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+ .list-text {
+    text-align: center;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.849);
+    padding-bottom: 5px;
+    font-size: 19px;
+}
+
+.link {
+    display: block;
+    border: 1px solid black;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-decoration: none;
+    color:  rgba(0, 0, 0, 0.767);
+    margin: 0 auto;
+    width: 200px;
+    height: 50px;
+
+}
+.link:hover {
+    background-color :rgba(131, 92, 92, 0.281);
+}
+
+.mylist {
+    margin-bottom: 25px;
+}
+
+.big-link {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    height: 65px;
+    width: 200px;
+    margin: 0 auto;
+
+    
+}
+
+.big-link:hover {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.color {
+   display: flex; 
+   flex-direction: column;
+   text-align: center;
+   height: 300px;
+   background-color: rgba(131, 92, 92, 0.281);
+   line-height: 35px;
+
+
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.big-heading {
+padding-top: 55px;
+font-size: 3rem;
+}
+.p-test {
+    font-size: 19px;
+    padding-top: 10px;
+    color: rgba(0, 0, 0, 0.596);
+}
+
+.section {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.column-text {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+} 
+
+
+
